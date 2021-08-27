@@ -3,7 +3,7 @@ services:
     grafana:
         container_name: grafana
         restart: unless-stopped
-        image: grafana/grafana
+        image: grafana/latest
         ports:
             - '3000:3000'
         volumes:
